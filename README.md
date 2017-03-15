@@ -16,14 +16,14 @@ Role Variables
 Dependencies
 ------------
 
-- `indigo-dc.docker`
+- `Cloud-PG.docker`
 
 Example Playbook
 ----------------
 
     - hosts: servers
       roles:
-         - { role: indigo-dc.zookeeper, zookeeper_host_list: ["10.10.10.1", "10.10.10.2", "10.10.10.3" ] }
+         - { role: Cloud-PG.zookeeper, zookeeper_host_list: ["10.10.10.1", "10.10.10.2", "10.10.10.3" ] }
 
 License
 -------
