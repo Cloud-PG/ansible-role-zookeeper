@@ -13,4 +13,4 @@ galaxy_info:
    - zookeeper
 
 dependencies: 
-   - { role: Cloud-PG.docker }
+   - Cloud-PG.docker
